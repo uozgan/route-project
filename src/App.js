@@ -37,11 +37,11 @@ function App() {
           Discover
         </NavLink>
       </nav>
-      {/* <Switch>
+      <Switch>
         <Route path="/discover" component={DiscoverMoviesPage} />
         <Route path="/about" component={AboutPage} />
         <Route path="/" component={HomePage} />
-      </Switch> */}
+      </Switch>
     </div>
   );
 }
